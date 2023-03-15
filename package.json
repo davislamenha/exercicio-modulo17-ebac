@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/davislamenha/exercicio-modulo17-ebac#readme",
   "devDependencies": {
-    "less": "^4.1.3"
+    "less": "^4.1.3",
+    "less-watch-compiler": "^1.16.3"
   }
 }
