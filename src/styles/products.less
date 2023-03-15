@@ -6,7 +6,19 @@
   row-gap: 4%;
   width: 100%;
 
+  @media @breakpointTablet {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+  }
+  @media @breakpointMobile {
+    display: block;
+  }
+
   .product-item {
+    @media @breakpointMobile {
+      margin-bottom: 32px;
+    }
+
     img {
       width: 100%;
       border-radius: 16px;
